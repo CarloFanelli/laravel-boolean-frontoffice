@@ -54,6 +54,7 @@ export default {
         },
         filterCocktails(filter) {
             this.filter = filter;
+            this.currentPage = 1;
             this.apiCall();
             console.log(this.filter);
 
